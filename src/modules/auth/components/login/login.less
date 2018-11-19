@@ -1,0 +1,38 @@
+.login {
+    height: 100%;
+
+    &__form {
+        background-color: @space-gray;
+        border-radius: 5px;
+        box-shadow: 0 0.7em 1.4em fade(@black, 19%), 0 0.4em 0.4em fade(@black, 23%);
+        box-sizing: border-box;
+        max-width: 90%;
+        min-width: 20em;
+        padding: 20px;
+
+        &-image {
+            margin-bottom: 2em;
+            text-align: center;
+        }
+        &-forgot-password {
+            color: @hyperlink-blue;
+            font-size: 0.9em;
+            text-align: center;
+
+            span {
+                &:hover {
+                    color: @dodger-blue;
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+        &-login-btn {
+            margin-top: 1em;
+            text-align: center;
+        }
+        &-social-login-btn {
+            margin-top: 1em;
+        }
+    }
+}

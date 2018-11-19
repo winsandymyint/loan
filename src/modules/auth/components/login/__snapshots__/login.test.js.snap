@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component matches snapshot 1`] = `
+<Row
+  align="middle"
+  className="login"
+  gutter={0}
+  justify="center"
+  type="flex"
+>
+  <Col
+    className="login__form"
+    span={6}
+  >
+    <form>
+      <div
+        className="login__form-image"
+      >
+        <img
+          src="test-file-stub"
+        />
+      </div>
+      <Field
+        component={[Function]}
+        name="email"
+        props={
+          Object {
+            "autoComplete": "email",
+            "disabled": undefined,
+            "placeholder": "Enter your email",
+            "prefix": <Icon
+              spin={false}
+              theme="outlined"
+              type="mail"
+            />,
+            "type": "email",
+          }
+        }
+        validate={
+          Array [
+            [Function],
+            [Function],
+          ]
+        }
+      />
+      <Field
+        component={[Function]}
+        name="password"
+        props={
+          Object {
+            "autoComplete": "current-password",
+            "placeholder": "Enter your password",
+            "prefix": <Icon
+              spin={false}
+              theme="outlined"
+              type="key"
+            />,
+            "type": "password",
+          }
+        }
+        validate={[Function]}
+      />
+      <div
+        className="login__form-forgot-password"
+      >
+        <span
+          onClick={[Function]}
+        >
+          forgot password ?
+        </span>
+      </div>
+      <div
+        className="login__form-login-btn"
+      >
+        <Button
+          disabled={false}
+          htmlType="submit"
+          icon="login"
+          loading={false}
+          name="login-btn"
+          size="default"
+          type="primary"
+          value="Login"
+        />
+      </div>
+    </form>
+    <Divider
+      dashed={false}
+      type="horizontal"
+    />
+    <div>
+      <Row
+        align="top"
+        className="login__form-social-login-btn"
+        gutter={0}
+        justify="space-around"
+        type="flex"
+      >
+        <Button
+          disabled={false}
+          htmlType="button"
+          icon="google"
+          loading={false}
+          name="login-btn"
+          onClick={[Function]}
+          size="default"
+          type="default"
+          value="Login with Google"
+        />
+      </Row>
+    </div>
+  </Col>
+</Row>
+`;
