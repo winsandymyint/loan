@@ -71,7 +71,7 @@ class Dashboard extends Component {
   render() {
     const { user } = this.props;
     let { users } = this.state;
-    users = users.filter(obj => obj.role === "candidate");
+    users = users? users.filter(obj => obj.role === "candidate") : "";
     const columns = [
       {
         title: "Name",

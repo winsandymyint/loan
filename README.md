@@ -1,6 +1,6 @@
 ### Installation/Setup instructions
 
-To install, run either `yarn install` or `npm install`. 
+To install, run either `yarn install` or `npm install`.
 This should cover you, but there may be additional dependancies that you may need (add them if thats the case).
 
 #### Running
@@ -12,7 +12,11 @@ To test, run the `yarn test` or `npm test`
 
 ### Overview
 
-This app has 2 roles. `admin` and `candidate`
+1. This app has 2 roles. `admin` and `candidate`
 Admin account => email: `admin@gmail.com`, password: `test`
-Candidate need to register to apply loan from register page. Once admin approve candidate's loan application, he can submit weekly loan payment.
+Login url: `http://localhost:3000/login`
+
+2. Candidate need to register to apply loan from register page. Once admin approve candidate's loan application, he can submit weekly loan payment.
+Registration url: `http://localhost:3000/register`
+
 Admin need to approve loan application and can check weekly payment amount
