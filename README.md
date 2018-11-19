@@ -1,15 +1,16 @@
-###Installation/Setup instructions###
+### Installation/Setup instructions
 
-To install, run `npm install`. This should cover you, but there may be additional dependancies that you may need (add them if thats the case).
+To install, run either `yarn install` or `npm install`. 
+This should cover you, but there may be additional dependancies that you may need (add them if thats the case).
 
-####Running#####
+#### Running
 
-To run the server, run the `npm start` command to get started. After that you can go to `localhost:3000`
+To run the server, run the `yarn start` or `npm start` command to get started. After that you can go to `localhost:3000`
 
-####Testing#####
-To test, run the `npm test`
+#### Testing
+To test, run the `yarn test` or `npm test`
 
-###Overview##
+### Overview
 
 This app has 2 roles. `admin` and `candidate`
 Admin account => email: `admin@gmail.com`, password: `test`
